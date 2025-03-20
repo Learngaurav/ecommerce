@@ -1,0 +1,6 @@
+Flask
+Flask-SQLAlchemy
+Flask-Migrate
+Flask-Marshmallow
+marshmallow-sqlalchemy
+psycopg2-binary  # or mysqlclient if using MySQL
