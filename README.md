@@ -28,15 +28,16 @@ This project is a simple **E-Commerce API** built using **Flask**. It allows use
 ## Installation
 ### 1. Clone the Repository
 ```sh
-$ git clone <repo_url>
-$ cd flask-ecommerce-api
+$ git clone https://github.com/Learngaurav/ecommerce.git
+
+$ cd ecommerce  # Navigate into the project folder
 ```
 
 ### 2. Create a Virtual Environment
 ```sh
-$ python -m venv venv
-$ source venv/bin/activate  # For Mac/Linux
-$ venv\Scripts\activate     # For Windows
+$ python -m venv myenv
+$ source myenv/bin/activate  # For Mac/Linux
+$ myenv\Scripts\activate      # For Windows
 ```
 
 ### 3. Install Dependencies
@@ -66,7 +67,7 @@ $ flask db upgrade    # Apply migrations
 ## Running the Application
 ### 1. Start the Flask Server
 ```sh
-$ flask run
+$ python app.py  # or flask run
 ```
 The API will be available at: **http://127.0.0.1:5000/**
 
